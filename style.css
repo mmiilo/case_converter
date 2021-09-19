@@ -1,0 +1,32 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+}
+.title {
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: wrap row;
+    width: 90% ;
+}
+button {
+    background-color: darkgreen;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+textarea {
+    height: 200px ;
+    width: 600px;
+    max-width: 600px;
+    margin: 10px;
+}
